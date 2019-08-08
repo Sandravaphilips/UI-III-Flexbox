@@ -64,97 +64,79 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-/* container */
+
 .container {
 	max-width: 900px;
 	margin: 0 auto;
-	/* background-color: blue; */
+	background-color: lightblue;
 	display: flex;
 	flex-direction: column;
-	padding: 20px;
-	justify-content: center; 
-}	
-
-/* NAVIGATION */
-nav {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	margin-bottom: 30px;
-}
-nav a {
-	text-decoration: none;
-	color: lightgray;
-}
-
-/* HEADER */
-header {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	margin-bottom: 30px;
-}
-header section {
-	text-align: center; 
-	margin-left: 90px;
-}
-header section h1 {
-	 font-size: 60px; 
-
-}
-
-/* HORIZONTAL LINE */
-hr {
-	width: 100%;
-	border: 1px solid black;
-} 
-
-/* FIRST CONTENT */
-.first-content {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-
-/* FIGURE */
-main figure img {
-	width: 860px;
-}
-
-/* SECOND CONTENT */
-.second-content {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-
-/* FOOTER */
-footer {
-	margin-top: 30px;
-}
-footer p {
+	padding: 10px;
+	justify-content: center; 	
 	
-	margin-top: 10px;
-	
-}
-footer>p {
-	text-align: center;
-	margin-top: 30px;
-}
-/* footer address {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	border: 1px solid black;
-} */
-
-
-	
+ }
+ header div {
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+	 
+ }
+ nav a {
+	 margin-right: 50px;
+	 text-decoration: none;
+ }
+  nav a:last-child {
+	 margin-right: 125px;
+ } 
+ header figure {
+	 margin-top: 20px;
+ }
+ div h1 {
+	 margin-top: 20px;
+ }
+ div p {
+	 margin-bottom: 20px;
+ }
+ .row-column {
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-between;
+	 margin-top: 20px;
+	 align-content: center;
+	 
+	 
+ }
+ .row-column section {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: space-evenly;
+ }
+ .box_border{
+	 border: 1px solid black;
+	 width: 430px;
+	 margin-bottom: 20px;
+	 padding: 10px;
+ }
+ #line {
+	 border: 1px solid black;
+ }
+ #last-one {
+	 margin-top: 20px;
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-between;
+ }
+ #last-one section {
+	 margin-bottom: 30px;
+ }
+ ul li {
+	 list-style-type: square;
+	 list-style-position: inside;
+	 margin-bottom: 10px;
+ }
+ footer {
+	 text-align: center;
+	 margin-top: 80px;
+ }
  
  
